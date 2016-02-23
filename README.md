@@ -20,8 +20,7 @@ Will work with gulp#4
 ### npm install -g js2coffee
 ### npm install -g browser-sync
 
-### npm i gulp-coffee gulp-util gulp-plumber gulp-stylus gulp-debug gulp-nodemon gulp-js2coffee
-browser-sync --save-dev
+### npm i gulp-coffee gulp-util gulp-plumber gulp-stylus gulp-debug gulp-nodemon gulp-js2coffee browser-sync --save-dev
 
 copy gulpfile.coffee to myapp
 
