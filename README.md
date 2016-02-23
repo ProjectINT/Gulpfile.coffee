@@ -3,9 +3,9 @@ Gulpfile for Node.js Express boilerplate with jade, coffeescript, stylus, browse
 
 I'am create this repo for learning gulp.js, github and create good boilerplate with my favorite technologies.
 
-You must have already instaled node.js, express, nodemon, then:
+You must have already instaled node.js, express, express-generator, nodemon, then:
 ```javascript
- express myapp
+ express -c stylus myapp
  cd myapp
  npm i
 ```
