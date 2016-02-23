@@ -11,7 +11,7 @@ You must have already instaled node.js, express, express-generator, nodemon, the
 ```
 Will work with gulp#4
 ```javascript
- npm -i gulpjs/gulp#4.0 -g
+ npm install -g gulpjs/gulp#4.0
  npm install -g coffee-script
  npm install -g stylus
  npm install -g js2coffee
