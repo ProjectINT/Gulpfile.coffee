@@ -10,10 +10,10 @@ express myapp
 cd myapp
 npm i
 
-#Will work with gulp#4
+## Will work with gulp#4
 
-npm -i gulpjs/gulp#4.0 -g
-npm -i gulpjs/gulp#4.0 --save-dev
+## npm -i gulpjs/gulp#4.0 -g
+## npm -i gulpjs/gulp#4.0 --save-dev
 
 npm install -g coffee-script
 npm install -g stylus
