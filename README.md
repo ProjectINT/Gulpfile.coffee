@@ -12,17 +12,16 @@ You must have already instaled node.js, express, express-generator, nodemon, the
 Will work with gulp#4
 ```javascript
  npm -i gulpjs/gulp#4.0 -g
- npm -i gulpjs/gulp#4.0 --save-dev
  npm install -g coffee-script
  npm install -g stylus
  npm install -g js2coffee
  npm install -g browser-sync
- npm i gulp-coffee gulp-util gulp-plumber gulp-stylus gulp-debug gulp-nodemon gulp-js2coffee browser-sync --save-dev
+ npm i gulpjs/gulp#4.0 gulp-coffee gulp-util gulp-plumber gulp-stylus gulp-debug gulp-nodemon gulp-js2coffee browser-sync --save-dev
 ```
 
 To compile js files to coffee:
 ```javascript 
-gulp require coffee-script/register j2c 
+gulp --require coffee-script/register j2c 
 ```
 or add aliace to bash: 
 ```javascript
